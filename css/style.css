@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FAEBD7;
+  font-family: 'Playfair Display', serif;
+}
+
+#imgs{
+  width: 80%;
+  height: 100px;
+  background: white;
+  color: black;
+}
+.image{
+  width: 200px;
+  height: 200px;
+}
+.image-div{
+  width: 33.3%;
+  height: 400px;
+  padding: 3px;
+  float: left;
+  border: 2px solid #4281a4;
+}
+.image-div::after{
+  clear: left;
+}
