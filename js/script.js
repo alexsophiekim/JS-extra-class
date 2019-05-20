@@ -50,7 +50,7 @@ var clothes = [
 
 var i;
 for (var i = 0; i < clothes.length; i++) {
-  gallery.innerHTML += '<div class ="image-div"> <img class="image" src="img/cloth' +i+ '.jpg"> </div>'
+  gallery.innerHTML += '<div class ="image-div"><h2> '+clothes[i].name+'</h2> <h3>$ '+clothes[i].price+'</h3> <img class="image" src="img/cloth' +i+ '.jpg"> </div>';
 
 
 }
